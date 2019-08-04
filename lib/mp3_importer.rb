@@ -10,4 +10,7 @@ class MP3Importer
     Dir.glob("#{@path}/*.mp3").collect {|file| file.split("/mp3s/")[1]}
   end
   
+  def import
+    self.files.each {|filename| 
+  
 end
