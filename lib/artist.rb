@@ -32,7 +32,10 @@ class Artist
   
   def print_songs
     Song.all.each |tune| do
-      
+      if tune.artist == self
+        put tune.name
+      end
+    end
   end
   
 end
