@@ -31,7 +31,8 @@ class Artist
   end
   
   def print_songs
-    Song.all.each
+    Song.all.each |tune| do
+      
   end
   
 end
