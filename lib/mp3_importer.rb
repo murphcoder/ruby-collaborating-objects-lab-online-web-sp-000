@@ -1,5 +1,4 @@
 class MP3Importer
   
   def initialize(path)
-    @path = path
-    Dir["#{"]
+    @path = Dir["#{path}/*.mp3"]
