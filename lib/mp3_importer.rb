@@ -7,7 +7,7 @@ class MP3Importer
   end
   
   def files
-    Dir.foreach("#{@path}/*.mp3") {|file| 
+    Dir.fo("#{@path}/*.mp3") {|file| 
   end
   
 end
