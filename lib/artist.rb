@@ -28,7 +28,7 @@ class Artist
     if self.all.none? {|musician| musician.name == artist}
       self.new(artist)
     else
-      
+      self.all.find {|musician| musician.name == artist}
     end
   end
   
