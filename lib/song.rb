@@ -18,6 +18,7 @@ class Song
     tune = self.new(song_array[0])
     musician = Artist.find_or_create_by_name(song_array[1])
     tune.artist = musician
+    tune
   end
   
 end
