@@ -12,7 +12,7 @@ class Artist
     song.artist = self
   end
   
-  def print_songs
+  def songs
     Song.all.select {|tune| tune.artist == self}
   end
   
