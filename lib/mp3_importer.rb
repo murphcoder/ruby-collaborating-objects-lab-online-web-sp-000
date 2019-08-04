@@ -9,5 +9,6 @@ class MP3Importer
   def files
     basedir = @path
     Dir.glob "*.mp3"
+  end
   
 end
