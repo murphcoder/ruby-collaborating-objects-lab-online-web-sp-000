@@ -7,7 +7,7 @@ class MP3Importer
   end
   
   def files
-    @path.glob "*.mp3"
+    Dir.glob "#{@path}/*.mp3"
   end
   
 end
